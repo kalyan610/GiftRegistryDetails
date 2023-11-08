@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "gift-registration-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/giftRegistrationDetails/GiftRegistrationDetailsWebPart.js",
+          "manifest": "./src/webparts/giftRegistrationDetails/GiftRegistrationDetailsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GiftRegistrationDetailsWebPartStrings": "lib/webparts/giftRegistrationDetails/loc/{locale}.js"
+  }
+}

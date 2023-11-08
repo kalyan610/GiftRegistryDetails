@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "gift-registration-details-client-side-solution",
+    "id": "ba7344b0-695e-4dee-b504-3e5f8c2f3474",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "GiftRegistrationDetails description"
+      },
+      "longDescription": {
+        "default": "GiftRegistrationDetails description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "gift-registration-details Feature",
+        "description": "The feature that activates elements of the gift-registration-details solution.",
+        "id": "eb6d16f3-9b7e-49e4-b3fc-ed59c0df6a4f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/gift-registration-details.sppkg"
+  }
+}
